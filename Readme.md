@@ -10,6 +10,8 @@ Seguidamente a través de nuestra consola de Proxmox creamos el fichero Vagrantf
 ![image](https://github.com/Pablorc222/PILA-LAMP/assets/146434694/e7f2843f-a91a-4d98-a21d-daa7462b88fd)
 ![image](https://github.com/Pablorc222/PILA-LAMP/assets/146434694/de5f65e5-fb69-4e96-b2cc-06f101eadd3c)
 Vemos el script1 y el script2 que hemos creado.
+![image](https://github.com/Pablorc222/PILA-LAMP/assets/146434694/b0d1b440-b94a-4abc-b78d-ec85591ba828)
+
 Luego, vemos el estado de nuestras máquinas y nos aseguramos de que están "running", es decir, en funcionamiento.
 
 
