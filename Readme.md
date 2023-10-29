@@ -1,4 +1,5 @@
-#PRACTICA PILA LAMP EN DOS NIVELES
+#PRACTICA PILA LAMP EN DOS NIVELES  
+
 Primero creamos un repositorio y lo ponemos público en GitHub, yo lo voy a llamar PILA-LAMP
 
 ![image](https://github.com/Pablorc222/PILA-LAMP/assets/146434694/711d4bab-050f-46e7-9aab-60eb5bbc13bb)
