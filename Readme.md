@@ -13,5 +13,7 @@ Vemos el script1 y el script2 que hemos creado.
 ![image](https://github.com/Pablorc222/PILA-LAMP/assets/146434694/b0d1b440-b94a-4abc-b78d-ec85591ba828)
 ![image](https://github.com/Pablorc222/PILA-LAMP/assets/146434694/8005e71c-6db1-48de-8770-764a4741508c)
 Luego, vemos el estado de nuestras máquinas y nos aseguramos de que están "running", es decir, en funcionamiento.
+![image](https://github.com/Pablorc222/PILA-LAMP/assets/146434694/db9a7f9b-3113-4a94-b14e-38243eef00b3)
+
 
 
