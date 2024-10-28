@@ -35,4 +35,7 @@ Este será su contenido:
 A continuación habilitamos el fichero de configuración que hemos creado con a2ensite y luego nos dirigimos a /etc/apache2/sites-enabled y desactivamos el fichero de configuración anterior con a2dissite.
 ![image](https://github.com/user-attachments/assets/e0341624-aad1-44f0-b11a-764ca18a6b63)
 Seguidamente entramos en /var/www/pablo y en el config.php y configuramos con nuestros datos.
+![image](https://github.com/user-attachments/assets/6cf9535b-16ae-4cb3-ac04-94df9ce85831)
+Ahora en el servidor Apache, ingresamos al servidor MySQL con el siguiente comando: mysql -u pablorc -p -h 192.168.3.11
+
 
