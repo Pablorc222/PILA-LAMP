@@ -38,5 +38,7 @@ Seguidamente entramos en /var/www/pablo y en el config.php y configuramos con nu
 ![image](https://github.com/user-attachments/assets/6cf9535b-16ae-4cb3-ac04-94df9ce85831)
 Ahora en el servidor Apache, ingresamos al servidor MySQL con el siguiente comando: mysql -u pablorc -p -h 192.168.3.11
 ![image](https://github.com/user-attachments/assets/71684502-98b6-4864-b162-75bd369cf572)
+Por último, si ponemos la dirección de la máquina de Apache en Google, veremos la página del LAMP.
+![image](https://github.com/user-attachments/assets/d18581c3-065f-4c13-9d10-9ed9eb1b05d0)
 
 
