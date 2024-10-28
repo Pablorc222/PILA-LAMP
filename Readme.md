@@ -32,5 +32,6 @@ Después de ello, creamos un ficheor de condiguración
 ![image](https://github.com/user-attachments/assets/7334e9d9-eced-4050-acdb-c82cf9fc7694)
 Este será su contenido:
 ![image](https://github.com/user-attachments/assets/10957cc8-ff98-4dcd-8d3b-5edb66fad342)
-A continuación habilitamos el fichero de configuración que hemos creado con a2ensite.
+A continuación habilitamos el fichero de configuración que hemos creado con a2ensite y luego nos dirigimos a /etc/apache2/sites-enabled y desactivamos el fichero de configuración anterior con a2dissite.
+
 
