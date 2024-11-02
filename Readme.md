@@ -4,15 +4,20 @@
 
 
 # Índice
-[**1. Creación y configuración de las máquinas**](#1-creación-y-configuración-de-las-máquinas)
+1. [**1. Creación y configuración de las máquinas**](#1-creación-y-configuración-de-las-máquinas)
     1. [Creación de las máquinas en Vagrant](#creación-de-las-máquinas-en-vagrant)
         - [Vagrantfile de las dos máquinas](#vagrantfile-de-las-dos-máquinas)
     2. [Scripts de aprovisionamiento](#scripts-de-aprovisionamiento)
         - [Script para el servidor Apache](#script-para-el-servidor-apache)
         - [Script para el servidor MySQL](#script-para-el-servidor-mysql)
-[**2. Configuración servidor MySQL**](#2-configuración-servidor-mysql)
+2. [**2. Configuración servidor MySQL**](#2-configuración-servidor-mysql)
 
-[**3. Configuración servidor Apache**](#3-configuración-servidor-apache)
+3. [**3. Configuración servidor Apache**](#3-configuración-servidor-apache)
+   
+
+<br />
+<br />
+<br />
    
 
 ## [**1. Creación y configuración de las máquinas**](#1-creación-y-configuración-de-las-máquinas)
