@@ -4,10 +4,34 @@
 
 
 # Índice
-*Creación y configuracion de las máquinas
+1. [**1. Creación y configuración de las máquinas**](#1-creación-y-configuración-de-las-máquinas)
+    1. [Creación de las máquinas en Vagrant](#creación-de-las-máquinas-en-vagrant)
+        - [Vagrantfile de las dos máquinas](#vagrantfile-de-las-dos-máquinas)
+    2. [Scripts de aprovisionamiento](#scripts-de-aprovisionamiento)
+        - [Script para el servidor Apache](#script-para-el-servidor-apache)
+        - [Script para el servidor MySQL](#script-para-el-servidor-mysql)
+2. [**2. Configuración servidor MySQL**](#2-configuración-servidor-mysql)
+    - [Clonar la carpeta de GitHub en la máquina SQL](#clonar-la-carpeta-de-github-en-la-máquina-sql)
+    - [Modificar el fichero 50-server.cnf](#modificar-el-fichero-50-servercnf)
+    - [Ejecutar el Script SQL en el servidor](#ejecutar-el-script-sql-en-el-servidor)
+    - [Crear un usuario de MySQL con la IP del servidor Apache](#crear-un-usuario-de-mysql-con-la-ip-del-servidor-apache)
+3. [**3. Configuración servidor Apache**](#3-configuración-servidor-apache)
+    - [Mover archivos a /var/www](#mover-archivos-a-varwww)
+    - [Crear un fichero de configuración en sites-available](#crear-un-fichero-de-configuración-en-sites-available)
+    - [Editar el fichero de configuración](#editar-el-fichero-de-configuración)
+    - [Habilitar el fichero de configuración](#habilitar-el-fichero-de-configuración)
+    - [Desactivar el fichero de configuración anterior](#desactivar-el-fichero-de-configuración-anterior)
+    - [Editar el archivo config.php](#editar-el-archivo-configphp)
+    - [Ingresar al servidor MySQL desde el servidor Apache](#ingresar-al-servidor-mysql-desde-el-servidor-apache)
+    - [Verificar el resultado](#verificar-el-resultado)
 
 
-Comenzamos creando dos máquinas en Vagrant, una que la llamaremos PabloRodriguezApache y otra que la llamaremos PabloRodriguezMySql, este es nuestro Vagranfile:
+## [**1. Creación y configuración de las máquinas**](#1-creación-y-configuración-de-las-máquinas)
+<br />
+<br />
+
+### Comenzamos creando dos máquinas en Vagrant, una que la llamaremos PabloRodriguezApache y otra que la llamaremos PabloRodriguezMySql, este es nuestro Vagranfile:
+#### [Vagrantfile de las dos máquinas.](#vagrantfile-de-las-dos-máquinas)
 ![image](https://github.com/user-attachments/assets/94efe147-a523-4e3d-b6a1-3150d11f0525)
 Creamos también un script para cada máquina, en este caso, serán estos:
 ### Script Apache
