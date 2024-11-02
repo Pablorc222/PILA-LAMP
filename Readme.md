@@ -37,29 +37,29 @@ Creamos también un script para cada máquina, en este caso, serán estos:
  <br />
 <br />
 
-### [Clonamos la carpeta de GitHub en nuestra máquina SQL.]
+### Clonamos la carpeta de GitHub en nuestra máquina SQL.
 ![image](https://github.com/user-attachments/assets/fc12c751-25e0-4350-8a83-17b85bf7f2c3)
-### [Nos dirigimos al directorio */etc/mysql/mariadb.conf.d* y modificamos el fichero *50-server.cnf*, cambiamos la *bind-address* y ponemos la IP de nuestra máquina.]
+### Nos dirigimos al directorio */etc/mysql/mariadb.conf.d* y modificamos el fichero *50-server.cnf*, cambiamos la *bind-address* y ponemos la IP de nuestra máquina.
 ![image](https://github.com/user-attachments/assets/e6278ba5-fac7-4547-8f39-5e945ef7d1fb)
-### [Ejecutamos el Script SQL en nuestro servidor.](#ejecutamos-el-script-sql-en-nuestro-servidor)
+### Ejecutamos el Script SQL en nuestro servidor.
 ![image](https://github.com/user-attachments/assets/e3385b1d-3421-4a74-9439-4ff22e63e589)
-### [Después creamos un usuario de MySQL pero con la IP de nuestro servidor Apache.]
+### Después creamos un usuario de MySQL pero con la IP de nuestro servidor Apache.
 ![image](https://github.com/user-attachments/assets/ea96325f-635e-45eb-b362-0d0dd0b643a0)
 
 ## **3. Configuración servidor Apache.**
-### [Nos dirigimos al directorio */var/www*, movemos los archivos src de la carpeta de GitHub.]
+### Nos dirigimos al directorio */var/www/pablo*, movemos los archivos src de la carpeta de GitHub.
 ![image](https://github.com/user-attachments/assets/8c5cc0d5-f869-421c-9b52-6ce39b284ff7)
-### [Seguidamente nos vamos a la carpeta de sites-available en */etc/apache2/sites-available* y creamos un fichero de configuración.](#seguidamente-nos-vamos-a-la-carpeta-de-sites-available-en-etcapache2sites-available-y-creamos-un-fichero-de-configuración) 
+### Seguidamente nos vamos a la carpeta de sites-available en */etc/apache2/sites-available* y creamos un fichero de configuración.
 ![image](https://github.com/user-attachments/assets/7334e9d9-eced-4050-acdb-c82cf9fc7694)
-### [Editamos el fichero de configuración y ponemos la ruta de la carpeta que hemos creado anteriormente.]
+### Editamos el fichero de configuración y ponemos la ruta de la carpeta que hemos creado anteriormente.
 ![image](https://github.com/user-attachments/assets/10957cc8-ff98-4dcd-8d3b-5edb66fad342)
-### [A continuación habilitamos el fichero de configuración que hemos creado con a2ensite y seguidamente nos dirigimos a */etc/apache2/sites-enabled* y desactivamos el fichero de configuración anterior con **a2dissite**. Después de esto, recargamos el Apache2 con **sudo systemctl reload apache2**..]
+### A continuación habilitamos el fichero de configuración que hemos creado con a2ensite y seguidamente nos dirigimos a */etc/apache2/sites-enabled* y desactivamos el fichero de configuración anterior con **a2dissite**. Después de esto, recargamos el Apache2 con **sudo systemctl reload apache2**..
 ![image](https://github.com/user-attachments/assets/e0341624-aad1-44f0-b11a-764ca18a6b63)
-### [Lo siguiente es entrar en la carpeta creada en */var/www/pablo* y editar el fichero config.php, donde pone localhost, ponemos la IP de la máquina de MySQL y cambiamos los datos de usuario y contraseña.]
+### Lo siguiente es entrar en la carpeta creada en */var/www/pablo* y editar el fichero config.php, donde pone localhost, ponemos la IP de la máquina de MySQL y cambiamos los datos de usuario y contraseña.
 ![image](https://github.com/user-attachments/assets/6cf9535b-16ae-4cb3-ac04-94df9ce85831)
-### [Ahora en el servidor Apache, ingresamos al servidor MySQL con el siguiente comando: **mysql -u pablorc -p -h 192.168.3.11**.]
+### Ahora en el servidor Apache, ingresamos al servidor MySQL con el siguiente comando: **mysql -u pablorc -p -h 192.168.3.11**.
 ![image](https://github.com/user-attachments/assets/71684502-98b6-4864-b162-75bd369cf572)
-### [Por último ponemos la dirección de la máquina de Apache en Google, veremos la página del LAMP.]
+### Por último ponemos la dirección de la máquina de Apache en Google, veremos la página del LAMP.
 ![image](https://github.com/user-attachments/assets/d18581c3-065f-4c13-9d10-9ed9eb1b05d0)
 
 
