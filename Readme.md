@@ -47,7 +47,7 @@ Creamos también un script para cada máquina, en este caso, serán estos:
 ![image](https://github.com/user-attachments/assets/ea96325f-635e-45eb-b362-0d0dd0b643a0)
 
 ## **3. Configuración servidor Apache.**
-### Nos dirigimos al directorio */var/www/pablo*, movemos los archivos src de la carpeta de GitHub.
+### Nos dirigimos al directorio */var/www*, movemos los archivos src de la carpeta de GitHub.
 ![image](https://github.com/user-attachments/assets/8c5cc0d5-f869-421c-9b52-6ce39b284ff7)
 ### Seguidamente nos vamos a la carpeta de sites-available en */etc/apache2/sites-available* y creamos un fichero de configuración.
 ![image](https://github.com/user-attachments/assets/7334e9d9-eced-4050-acdb-c82cf9fc7694)
