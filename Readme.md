@@ -4,7 +4,7 @@
 
 
 # Índice
-Creación y configuracion de las máquinas
+*Creación y configuracion de las máquinas
 
 
 Comenzamos creando dos máquinas en Vagrant, una que la llamaremos PabloRodriguezApache y otra que la llamaremos PabloRodriguezMySql, este es nuestro Vagranfile:
