@@ -1,8 +1,3 @@
-# PILA LAMP EN DOS NIVELES 
----
-## Pablo Rodríguez Crespo
-
-
 # PILA LAMP EN DOS NIVELES
 
 ## Pablo Rodríguez Crespo
