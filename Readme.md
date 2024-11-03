@@ -3,14 +3,34 @@
 ## Pablo Rodríguez Crespo
 
 
-# Índice
-1. [**1. Creación y configuración de las máquinas**](#1-creación-y-configuración-de-las-máquinas)
-    1.  - [Script para el servidor Apache](#script-para-el-servidor-apache)
-        - [Script para el servidor MySQL](#script-para-el-servidor-mysql)
-2. [**2. Configuración servidor MySQL**](#2-configuración-servidor-mysql)
+# PILA LAMP EN DOS NIVELES
 
-3. [**3. Configuración servidor Apache**](#3-configuración-servidor-apache)
-   
+## Pablo Rodríguez Crespo
+
+---
+
+# Índice
+
+1. **[Creación y Configuración de las Máquinas](#1-creación-y-configuración-de-las-máquinas)**
+   - 1.1. [Vagrantfile de las Dos Máquinas](#vagrantfile-de-las-dos-máquinas)
+   - 1.2. [Script para el Servidor Apache](#script-para-el-servidor-apache)
+   - 1.3. [Script para el Servidor MySQL](#script-para-el-servidor-mysql)
+
+2. **[Configuración del Servidor MySQL](#2-configuración-del-servidor-mysql)**
+   - 2.1. [Clonación de Carpeta desde GitHub](#clonación-de-carpeta-desde-github)
+   - 2.2. [Modificación del Archivo 50-server.cnf](#modificación-del-archivo-50-server-cnf)
+   - 2.3. [Ejecución del Script SQL en el Servidor](#ejecución-del-script-sql-en-el-servidor)
+   - 2.4. [Creación de Usuario MySQL para el Servidor Apache](#creación-de-usuario-mysql-para-el-servidor-apache)
+
+3. **[Configuración del Servidor Apache](#3-configuración-del-servidor-apache)**
+   - 3.1. [Movimiento de Archivos a /var/www](#movimiento-de-archivos-a-var-www)
+   - 3.2. [Creación de Archivo de Configuración en sites-available](#creación-de-archivo-de-configuración-en-sites-available)
+   - 3.3. [Edición del Archivo de Configuración de Apache](#edición-del-archivo-de-configuración-de-apache)
+   - 3.4. [Activación y Desactivación de Configuraciones en Apache](#activación-y-desactivación-de-configuraciones-en-apache)
+   - 3.5. [Edición de config.php en /var/www/pablo](#edición-de-config-php-en-var-www-pablo)
+   - 3.6. [Conexión al Servidor MySQL desde Apache](#conexión-al-servidor-mysql-desde-apache)
+   - 3.7. [Acceso a la Página de LAMP desde Navegador](#acceso-a-la-página-de-lamp-desde-navegador)
+
 
 <br />
 <br />
